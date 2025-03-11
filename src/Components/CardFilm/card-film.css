@@ -1,0 +1,36 @@
+.films-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .films-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card-films {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-films:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-films h2 {
+    font-size: 1.4rem;
+  }
+  
+  .card-films p {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
